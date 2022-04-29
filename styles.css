@@ -10,3 +10,7 @@ height: 450px;
     border-spacing: 0;
     border: 1px rgb(11, 12, 12) solid;
 }
+
+.odd-section {
+    background-color: lightsteelblue;
+}
