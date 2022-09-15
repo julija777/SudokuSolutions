@@ -52,8 +52,6 @@ const populateValues = (isSolvable, solution) => {
 const solve = () => {
     joinValues()
     const data = {numbers: submission.join('')}
-    console.log('data', data)
-
     fetch('http://localhost:8000/solve', {
         method: 'POST', 
         headers: {
