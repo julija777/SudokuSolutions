@@ -4,4 +4,4 @@ Created in JavaScript,
 To hide an repidApi key backend created by installing 
 npm i express cors dotenv axios nodemon
 
-Deployed here: 
+Deployed here: https://sudoku-solver-sandy.vercel.app/
