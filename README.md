@@ -5,7 +5,7 @@ Built with **React**, **TypeScript**, and **Tailwind CSS**
 
 ## ✨ Features
 
-- **Instant Solving** - Solves sudoku puzzles using an optimized backtracking algorithm
+- **Instant Solving** - Solves sudoku puzzles using an optimised backtracking algorithm
 - **No Backend Required** - Everything runs locally in your browser
 - **Type-Safe** - Written entirely in TypeScript for reliability
 - **Offline Capable** - No internet connection needed after initial load
