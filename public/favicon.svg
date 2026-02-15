@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" fill="#1e40af"/>
-  <text x="50" y="65" font-size="60" font-weight="bold" text-anchor="middle" fill="white">9</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- Background -->
+  <rect width="180" height="180" fill="#1e40af"/>
+  
+  <!-- Sudoku Grid -->
+  <g transform="translate(20, 20)">
+    <!-- Grid cells background -->
+    <rect width="140" height="140" fill="white" stroke="#1e40af" stroke-width="2"/>
+    
+    <!-- Thin grid lines (1px) -->
+    <g stroke="#e5e7eb" stroke-width="0.5">
+      <!-- Vertical lines -->
+      <line x1="15.56" y1="0" x2="15.56" y2="140"/>
+      <line x1="31.11" y1="0" x2="31.11" y2="140"/>
+      <line x1="46.67" y1="0" x2="46.67" y2="140"/>
+      <line x1="62.22" y1="0" x2="62.22" y2="140"/>
+      <line x1="77.78" y1="0" x2="77.78" y2="140"/>
+      <line x1="93.33" y1="0" x2="93.33" y2="140"/>
+      <line x1="108.89" y1="0" x2="108.89" y2="140"/>
+      <line x1="124.44" y1="0" x2="124.44" y2="140"/>
+      <!-- Horizontal lines -->
+      <line x1="0" y1="15.56" x2="140" y2="15.56"/>
+      <line x1="0" y1="31.11" x2="140" y2="31.11"/>
+      <line x1="0" y1="46.67" x2="140" y2="46.67"/>
+      <line x1="0" y1="62.22" x2="140" y2="62.22"/>
+      <line x1="0" y1="77.78" x2="140" y2="77.78"/>
+      <line x1="0" y1="93.33" x2="140" y2="93.33"/>
+      <line x1="0" y1="108.89" x2="140" y2="108.89"/>
+      <line x1="0" y1="124.44" x2="140" y2="124.44"/>
+    </g>
+    
+    <!-- Bold 3x3 box borders -->
+    <g stroke="#1e40af" stroke-width="1.5">
+      <!-- Vertical -->
+      <line x1="46.67" y1="0" x2="46.67" y2="140"/>
+      <line x1="93.33" y1="0" x2="93.33" y2="140"/>
+      <!-- Horizontal -->
+      <line x1="0" y1="46.67" x2="140" y2="46.67"/>
+      <line x1="0" y1="93.33" x2="140" y2="93.33"/>
+    </g>
+    
+    <!-- Sample numbers (sudoku puzzle pattern) -->
+    <g font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#1e40af" text-anchor="middle">
+      <!-- Row 1 -->
+      <text x="26.67" y="16">5</text>
+      <text x="104.44" y="16">9</text>
+      
+      <!-- Row 2 -->
+      <text x="8.33" y="31.11">7</text>
+      <text x="77.78" y="31.11">2</text>
+      <text x="131.67" y="31.11">3</text>
+      
+      <!-- Row 3 -->
+      <text x="42.22" y="46">8</text>
+      <text x="131.67" y="46">6</text>
+      
+      <!-- Row 5 (middle) -->
+      <text x="8.33" y="77.78">1</text>
+      <text x="131.67" y="77.78">7</text>
+      
+      <!-- Row 7 -->
+      <text x="8.33" y="109.44">9</text>
+      <text x="42.22" y="109.44">4</text>
+      
+      <!-- Row 8 -->
+      <text x="8.33" y="124.44">3</text>
+      <text x="62.22" y="124.44">5</text>
+      <text x="131.67" y="124.44">2</text>
+      
+      <!-- Row 9 -->
+      <text x="42.22" y="139.44">2</text>
+      <text x="77.78" y="139.44">8</text>
+    </g>
+  </g>
 </svg>
