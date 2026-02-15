@@ -13,7 +13,7 @@ Built with **React**, **TypeScript**, and **Tailwind CSS**
 
 ## 🚀 Live Demo
 
-Try it now: **[Sudoku Solver on Vercel](https://sudoku-solver-sandy.vercel.app/)**
+Try it now: <a href="https://sudoku-solver-sandy.vercel.app/" target="_blank" rel="noopener noreferrer">**Sudoku Solver on Vercel**</a>
 
 ## 🛠️ Tech Stack
 
