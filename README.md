@@ -1,7 +1,10 @@
 # SudokuSolutions
-Sudoku Solver using Rapid API. 
-Created in JavaScript, 
-To hide an repidApi key backend created by installing 
-npm i express cors dotenv axios nodemon
+
+To run the application:
+
+git clone https://github.com/julija777/SudokuSolutions.git
+cd SudokuSolutions
+npm install
+npm start
 
 Deployed here: https://sudoku-solver-sandy.vercel.app/
