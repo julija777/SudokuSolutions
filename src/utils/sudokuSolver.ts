@@ -82,6 +82,15 @@ export const solveSudoku = (puzzleString: string): SolveResult => {
   console.log('🧩 Solving sudoku locally with backtracking algorithm...');
   console.log('📋 Input puzzle:', puzzleString);
 
+  // Validate puzzle length
+  if (puzzleString.length !== 81) {
+    console.log('❌ Invalid puzzle length. Expected 81 characters, got', puzzleString.length);
+    return {
+      solvable: false,
+      solution: null
+    };
+  }
+
   try {
     const board = parsePuzzleString(puzzleString);
     const boardCopy = JSON.parse(JSON.stringify(board)) as number[][];
